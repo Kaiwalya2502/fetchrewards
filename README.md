@@ -49,7 +49,7 @@ The Receipt Count Forecasting Application is a web-based solution that provides 
 ### Pull from Docker Hub (If Available)
 1. **Pull Docker Image**:
    ```sh
-   docker pull [your-dockerhub-username]/myflaskapp
+   docker pull [your-dockerhub-username]/fetch
    ```
 2. **Run Docker Container**:
    ```sh
