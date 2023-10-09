@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="static/script.js" defer></script>
+    <title>Time Series Prediction</title>
+</head>
+<body>
+    <h1>Fetch Receipt Count Prediction</h1>
+    <label for="daysInput">Predict next </label>
+    <input type="number" id="daysInput" name="daysInput" value="1">
+    <label for="daysInput"> days</label>
+    <button onclick="getPrediction()">Predict</button>
+    <div id="plotlyGraph"></div>
+    <p>Total Predicted Value: <span id="total">0</span></p>
+</body>
+</html>
